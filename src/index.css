@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(255, 229, 181);
+}
+
+.jman {
+  left: 789px;
+  position: absolute;
+  top: 130px;
+  width: 600px;
+height: 600px;
+padding-left: 190px;
+}
+p {
+  position: absolute;
+width: 240px;
+height: 30px;
+left: 190px;
+top: 190px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 25.1515px;
+line-height: 30px;
+color: #9b44ff;
+}
+
+h1 {
+  position: absolute;
+width: 221px;
+height: 71px;
+left: 190px;
+top: 200px;
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 59.0553px;
+line-height: 69px;
+color: #001069;
+}
+
+h7 {
+  position: absolute;
+width: 218px;
+height: 34px;
+left: 200px;
+top: 300px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  background: linear-gradient(-1deg, rgb(1, 1, 43) 30%, rgb(1, 4, 196) 100%);
+  color: white;
+  text-transform: uppercase;
+  height: 9vh;
+  align-items: center;
+  text-decoration: none;
+  position: fixed;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+
+.nav{
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+  ;
+}
+
+.nav-items {
+
+}
+.nav-links {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  height: 100%;
+  padding: 0.5rem 1rem;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 12px;
+}
+.nav-links:hover {
+  color: orange;
+}
+
+.header-container {
+  display: flex;
+  padding-right: 5px;
+  margin-top: 25px;
+  height: 18vh;
+  padding: 0.5rem 30rem;
+  justify-content: space-between;
+  
+}
+
+.topBody {
+  /* background: url(./Image/poti.png);
+     background-repeat: no-repeat;
+     min-height: 840px;
+     background-size: 40% 50%; */
+     flex: 1;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-left: 500px;
+}
+
+.topBody img{
+  width: 50%;
+  height: 50%;
+  left: 10px;
+}
+button {
+  background: #CD0707;
+border-radius: 20px;
+position: absolute;
+width: 177px;
+height: 31px;
+left: 220px;
+top: 350px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 16.4136px;
+line-height: 20px;
+color: white;
+border: 0px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 1050px) {
+  
+}
